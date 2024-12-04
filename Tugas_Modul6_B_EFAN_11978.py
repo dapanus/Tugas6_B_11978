@@ -48,7 +48,7 @@ else:
         st.sidebar.markdown(progress_html, unsafe_allow_html=True)
 
     # Tampilan utama aplikasi
-    st.title("Prediksi Kematangan Buah Naga - 11972")
+    st.title("Prediksi Kematangan Buah Naga - 11978")
     uploaded_files = st.file_uploader("Unggah Gambar (Beberapa diperbolehkan)", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
 
     if st.sidebar.button("Prediksi"):
